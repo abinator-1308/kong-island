@@ -17,19 +17,19 @@ This setup helps to develop and test multiple kong plugins. It uses [kong-pongo]
 # Directories
 The repo has the following important directories:
 
-- [kong-plugins](https://github.com/Abhishekvrshny/kong-island/tree/master/kong-plugins): This is a repository of all kong custom plugins. Some of them can be `submodule`d from other public git repositories.
+- [kong-plugins](https://github.com/abinator-1308/kong-island-lean/tree/master/kong-plugins): This is a repository of all kong custom plugins. Some of them can be `submodule`d from other public git repositories.
 - [kong-pongo](https://github.com/Kong/kong-pongo): Tooling to run plugin tests with Kong.
 
 # Setup
 Clone master branch  with submodules
 ```sh
-git clone --recurse-submodules -j8 https://github.com/Abhishekvrshny/kong-island
+git clone --recurse-submodules -j8 https://github.com/abinator-1308/kong-island-lean
 cd kong-island
 ```
 
 To fetch a specific branch
 ```sh
-git clone https://github.com/Abhishekvrshny/kong-island
+git clone https://github.com/abinator-1308/kong-island-lean
 cd kong-island
 git fetch origin <branch>
 git submodule init
@@ -77,7 +77,7 @@ make down
 
 # Plugin development
 
-All plugins are available under [kong-plugins dir](https://github.com/Abhishekvrshny/kong-island/tree/master/kong-plugins).
+All plugins are available under [kong-plugins dir](https://github.com/abinator-1308/kong-island-lean/tree/master/kong-plugins).
 
 ## Including an open-source plugin
 Add the open-source plugin as a submodule in `kong-island`
